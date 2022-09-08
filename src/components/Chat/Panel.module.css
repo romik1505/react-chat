@@ -1,0 +1,13 @@
+.panel {
+    padding: 0 10px;
+    background: rgb(61,61,64);
+    background: linear-gradient(187deg, rgba(61,61,64,1) 0%, rgba(42,42,50,1) 31%, rgba(33,42,43,1) 100%);
+}
+
+.item {
+    margin: 15px 0;
+}
+
+.item img {
+    width: 50px;
+}

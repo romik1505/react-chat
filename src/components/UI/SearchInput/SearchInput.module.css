@@ -1,0 +1,25 @@
+.search {
+    display: flex;
+    border: 1px solid gray;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.search input[type="text"] {
+    border: none;
+    margin-left: 10px;
+}
+
+.search input[type="text"]:focus-visible {
+    outline: none;
+}
+
+.search input[type="button"] {
+    width: 25px;
+    margin-right: 10px;
+    background: none;
+    background-image: url(../../../../public/loupe.svg);
+    border: none;
+    background-repeat: no-repeat;
+    
+}

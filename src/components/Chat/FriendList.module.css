@@ -1,0 +1,56 @@
+.title {
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 0 12px;
+}
+
+.friends{
+    margin-top: 20px;
+}
+
+.amount {
+
+}
+
+.friend{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.friend:hover {
+    background-color: rgb(144 165 183 / 80%);
+}
+
+.header {
+    margin-top: 20px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.username {
+    
+}
+
+.status {
+    width: 8px;
+    height: 8px;
+    border-radius: 10px;
+    margin-left: 8px;
+}
+
+.online {
+    background-color: #71c971;
+}
+
+.offline {
+    background-color: antiquewhite;
+}

@@ -1,0 +1,22 @@
+.channels {
+
+}
+
+.title {
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.channel-item {
+    margin-bottom: 10px;
+    font-style: italic;
+    text-align: left;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.header {
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-between;
+}

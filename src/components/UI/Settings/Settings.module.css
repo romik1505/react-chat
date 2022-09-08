@@ -1,0 +1,15 @@
+.settings {
+    background-image: url(../../../../public/dots.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 26px;
+    height: 26px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 100%;
+}
+
+.settings:hover{
+    box-shadow: 0 0 2px black;
+}
+

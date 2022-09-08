@@ -1,0 +1,48 @@
+.input {
+    height: 50px;
+    border-top: 1px solid #e4e2e2;
+    display: flex;
+}
+
+.input input[type="text"] {
+    flex-grow: 1;
+    border: none;
+}
+
+.input input[type="text"]:focus-visible {
+    outline: none;
+}
+
+.btn {
+    width: 50px;
+    background: none;
+    border: none;
+}
+
+.clip {
+    width: 40px;
+    background: none;
+    border: none;
+    background-image: url(../../../public/clip.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: 0 6px;
+}
+
+.microphone {
+    width: 40px;
+    background: none;
+    border: none;
+    background-image: url(../../../public/microphone.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.smile {
+    width: 40px;
+    background: none;
+    border: none;
+    background-image: url(../../../public/smile.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
